@@ -1,0 +1,165 @@
+
+body{
+  font-family: Montserrat;
+}
+
+#title{
+  background-color: #ff4c68;
+  color:#fff;  /* font-family: Montserrat; */
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+
+}
+
+h1{
+  font-family: "Montserrat-black";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 2% 15%;
+  z-index: -1;
+}
+.dogimg{
+  transform: rotate(20deg);
+ width:50%;
+  position: absolute;
+  /* z-index: -1; */
+}
+#features{
+  background-color: #fff;
+   position: relative;
+   z-index: 1;
+   padding-top: 10px;
+   padding-bottom: 30px;
+}
+.featurerow{
+  margin-top:80px;
+}
+.feature-h3{
+  font-family: Montserrat-bold;
+}
+
+.feature-para{
+  font-family: Ubuntu;
+  font-weight: lighter;
+  color: #484848;
+}
+.sales1{
+  text-align: center;
+  /* background-color: #000; */
+}
+.sales2{
+  text-align: center;
+  /* background-color: #000; */
+}
+.sales3{
+  text-align: center;
+  /* background-color: #000; */
+}
+.icon{
+  color: #f8615a;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.nav-item{
+  padding-left: 10px;
+  font-size: 20px;
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+
+.navbar-brand{
+  padding-top: 1px;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size:2.5rem;
+  margin-left: 0;
+  font-family: Ubuntu;
+}
+
+.icon:hover{
+  color:#e6739f;
+}
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+h2{
+  font-family: Montserrat-bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+.pricing-row{
+  padding: 30px 10%;
+}
+.pricing-button{
+  width:90%;
+
+}
+.card{
+  text-align: center;
+}
+
+.pricing-header{
+  padding-left:10%;
+}
+
+.cta{
+  padding: 30px 0 30px 0;
+  background-color: #EF8172;
+  text-align: center;
+
+}
+
+.footer_text{
+  padding: 20px 0 20px 0;
+  font-family: Montserrat-black;
+  font-weight: bold;
+  color:#fff;
+}
+.footer-button{
+  margin-right: 20px;
+}
+#footer{
+  text-align: center;
+}
+.footer_icons{
+  margin:70px 10px 10px 10px;
+}
+
+.footer_icons:hover{
+  color:#000;
+}
