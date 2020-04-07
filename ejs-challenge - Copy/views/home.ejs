@@ -1,0 +1,33 @@
+<%- include('partials/header'); -%>
+<%# Function to truncate the post content text on the home page and place ellipses at the end %>
+<%
+text_truncate = function(str) {
+
+  length = 100;
+  ending = ' ...';
+
+  if (str.length > length) {
+    return str.substring(0, length - ending.length) + ending;
+  } else {
+    return str;
+  }
+};
+%>
+
+<h1>Home!</h1>
+
+  <p><%= homeStartingContent %></p>
+  <%posts.forEach(function(post){%>
+  <% var truncated = text_truncate(post.content);  %>
+  <% console.log(truncated);%>
+  <%  console.log(post.title);%>
+    <h1><%= post.title %></h1>
+    <% if(post.content.length>=100){%>
+    <p><%= truncated  %> <a href="/posts/<%=post.title%>">Read More</a></p>
+<%  } else  {%>
+  <p><%= truncated  %></p>
+<% }%>
+
+  <%});%>
+
+<%- include('partials/footer'); -%>
